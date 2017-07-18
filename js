@@ -2,7 +2,7 @@ var cadaNoscript, altoViewPort, desplazado, posicionCambio;
 
 function mueve() {
 /* COLECCIÓN ACTUALIZADA DE noscript EN GALERÍA */
-cadaNoscript = document.querySelectorAll("#galeria figure noscript"); 
+cadaNoscript = document.querySelectorAll("noscript.preloader"); 
 
 altoViewPort = window.innerHeight; 
 
